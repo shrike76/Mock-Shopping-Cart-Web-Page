@@ -1,0 +1,45 @@
+h1{
+	padding:5px;
+	text-align: center; 
+}
+
+#logo{
+	height:200px;
+    width:200px;
+}
+
+#cart{
+	background-image:url(images/shoppingcart.png);
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	height:50px;
+    width:50px;
+	background-size: 100%;
+	float: right;
+}
+
+#top{
+	width:100%;
+}
+
+#maintable{
+	margin: auto;
+	width: 30%;
+	padding:5px;
+}
+
+#maintable img{
+	width: 300px;
+	height: 200px;
+}
+
+.shoppingcart{
+	top: 150px;
+	right:30px;
+	position: absolute;
+}
+.shoppingcart img{
+	width: 150px;
+	height: 100px;
+}

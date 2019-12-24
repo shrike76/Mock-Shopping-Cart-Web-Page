@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css"/> 
+</head>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="script.js" ></script>
+<body>
+<table style="width:100%">
+	<tr>
+		<td><img id="logo" src="images/logo.jpg"></img></td>
+		<td><a href="#" id="cart"></input></td>
+	</tr>
+</table>
+
+<h1>University of Houston E-Shopping</h1>
+
+<table id="maintable" cellpadding="10" border="1">
+	<tr>
+		<td><img src="images/apple.jpg"><br>Apple<br>$2<br><input type="button" class="item" data-index="0" value="Add to Shopping Cart"></td>
+		<td><img src="images/banana.jpg"><br>Banana<br>$10<br><input type="button" class="item" data-index="1" value="Add to Shopping Cart"></td>
+		<td><img src="images/pineapple.jpg"><br>Pineapple<br>$4<br><input type="button" class="item" data-index="2" value="Add to Shopping Cart"></td>
+		<td><img src="images/avocado.jpg"><br>Avocado<br>$5<br><input type="button" class="item" data-index="3" value="Add to Shopping Cart"></td>
+	</tr>
+	<tr>
+		<td><img src="images/celery.jpg"><br>Celery<br>$1<br><input type="button" class="item" data-index="4" value="Add to Shopping Cart"></td>
+		<td><img src="images/grapes.jpg"><br>Grapes<br>$1<br><input type="button" class="item" data-index="5" value="Add to Shopping Cart"></td>
+		<td><img src="images/orange.jpg"><br>Orange<br>$7<br><input type="button" class="item" data-index="6" value="Add to Shopping Cart"></td>
+		<td><img src="images/lemon.jpg"><br>Lemon<br>$3<br><input type="button" class="item" data-index="7" value="Add to Shopping Cart"></td>
+	</td>
+</table>
+
+<div class="shoppingcart" style="display: none; background-color: white; padding:5px;">
+	<table id="cartTable" border="1" style="border-collapse:collapse;" cellpadding="10">
+		<thead>
+			<th>Image</th>
+			<th>Name</th>
+			<th>Price</th>
+			<th></th>
+		<thead>
+		<tbody>
+			
+		</tbody>
+	</table>
+	<input type="button" value="Order" onclick="window.location.href = 'http://cjweber.heyuhnem.com/assign5_Colton_Weber/main.html#';" style="Width:100%; margin-top:5px; height:30px">
+</div>
